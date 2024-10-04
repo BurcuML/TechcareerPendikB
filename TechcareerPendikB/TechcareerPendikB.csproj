@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="OOP2\OOP2.csproj" />
+    <None Include="OOP2\OOP2.sln" />
     <None Include="OOP\OOP.sln" />
     <None Include="OOP\OOP\OOP.csproj" />
     <None Include="RecordType\RecordType.sln" />
@@ -15,7 +17,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="OOP2\" />
+    <Folder Include="OOP2\bin\Debug\net8.0\" />
+    <Folder Include="OOP2\bin\Release\net8.0\" />
+    <Folder Include="OOP2\obj\Debug\net8.0\refint\" />
+    <Folder Include="OOP2\obj\Debug\net8.0\ref\" />
+    <Folder Include="OOP2\obj\Release\net8.0\refint\" />
+    <Folder Include="OOP2\obj\Release\net8.0\ref\" />
     <Folder Include="RecordType\RecordType\bin\Release\net8.0\" />
     <Folder Include="RecordType\RecordType\obj\Release\net8.0\refint\" />
     <Folder Include="RecordType\RecordType\obj\Release\net8.0\ref\" />
